@@ -6,7 +6,7 @@
 
 ## Adversarial Machine Learning for Cyber Security
 
-The robustness test package of csmt provides a series of tools that enable researchers to defend and evaluate Machine Learning models and applications against adversarial threats. 
+The robustness test package of csmt provides a series of tools that enable researchers to evaluate Machine Learning models and applications against adversarial threats. 
 In particular, csmt supports popular machine learning frameworks (TensorFlow, Keras, PyTorch, scikit-learn, XGBoost, LightGBM, CatBoost, etc.), as well as multiple adversarial attack and defense strategies.
 More importantly, we employ restricted feature-space attacks using remapping functions and implement end-to-end problem-space attacks in Network Intrusion Detections(NIDSs) and Windows malware detections.
 

@@ -2,7 +2,8 @@
 # BayesAttack
 Query-Efficient End-to-end Adversarial Attacks against Security Detectors via Bayesian Optimization
 
-## what is ETA?
+## what is BayesAttack?
+BayesAttack is a practical adversarial attack framework for security applications aiming to address two critical requirements in practice: 1) achieving query-effective black box attacks, 2) directly modifying the original entities, and meeting the constraints of the problem space.
 
 ## Background
 Machine learning (ML) and Deep Learning (DL) are widely used in all types of security-related applications due to their superior performance and ability to detect unforeseen threats. 

@@ -1,7 +1,7 @@
 <!-- # Practical End-to-end Adversarial Attacks on Security Detectors using efficient query mechanisms -->
 # Query-Efficient End-to-end Adversarial Attacks against Security Detectors via Bayesian Optimisation
 
-## Blackground
+## Background
 Machine learning (ML) and Deep Learning (DL) are widely used in all types of security-related applications due to their superior performance and ability to detect unforeseen threats. 
 However, machine learning models are susceptible to adversarial attack, which makes them difficult to deploy on a large scale.
 Existing adversarial attack methods fail to satisfy practical requirements in security domains, as the actual adversarial attack is a query-effective black-box problem-space attack.
@@ -14,16 +14,16 @@ Researchers concluded that real-world adversarial attacks have to meet three con
 - attackers should modify problem-space entities directly instead of feature-space entities.
 Therefore, real-world adversarial attacks are therefore a query of an effective end-to-end black box attack of the problem-space.
 
-In this paper, we propose BayesAttack, a general adversarial attack framework aiming to addresse two critical requirements in practice: 1) achieving a query-effective black-box attack, 2) directly modifying the original entities, and meeting the constraints of the problem-space.
+In this paper, we propose BayesAttack, a general adversarial attack framework aiming to address two critical requirements in practice: 1) achieving a query-effective black-box attack, 2) directly modifying the original entities, and meeting the constraints of the problem-space.
 By continuously and directly changing the entities of the problem space, we query the changes of the black-box model, and finally, by using Bayesian optimization, we find adversarial examples that satisfy the constraints faster.
 Bayesian optimization can meet the needs of query-efficient black-box attacks, but problem space attacks are discrete, and native Bayesian optimization is better suited for continuous space optimization.
 To solve this problem, we improve the naive Bayesian optimization method and design different kernel functions,  different acquisition functions, and optimization functions for different models.
 we apply BayesAttack to three different types of security-related ML systems, and extensively evaluate our adversarial attack method against other black-box optimization methods.
 Experimental results show that BayesAttack can provide high-quality real-world adversarial examples against ML models while meeting several special requirements in security domains.
-We also explore how effective it is to assess the sensitivity of different models through practical adversarial attacks, which can can help security operators to understand model decisions, diagnose system mistakes, give feedback to models, and reduce false positives.
+We also explore how effective it is to assess the sensitivity of different models through practical adversarial attacks, which can help security operators to understand model decisions, diagnose system mistakes, give feedback to models, and reduce false positives.
 
 
-## Ealuation
+## Evaluation
 
 ### Security Detectors
 

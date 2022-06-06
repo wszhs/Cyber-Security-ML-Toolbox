@@ -199,7 +199,7 @@ csmt.estimators
 </ul>
 </details>
 
-The details of **Domain Constraints** can be found [here](https://github.com/wszhs/my_knowledge_map/adversarial_ml/cyberSecurity/cybersecurity_aml.md)
+The details of **Domain Constraints** can be found [here](https://github.com/wszhs/my_knowledge_map/blob/master/adversarial_ml/cyberSecurity/cybersecurity_aml.md)
 
 ### End-to-end Problem-Space Modules
 
@@ -240,9 +240,9 @@ The details of **Domain Constraints** can be found [here](https://github.com/wsz
 </ul>
 </details>
 
-The details of **NIDSs Attack** can be found [here](https://github.com/wszhs/my_knowledge_map/adversarial_ml/cyberSecurity/NIDS/NIDS_aml.md)
+The details of **NIDSs Attack** can be found [here](https://github.com/wszhs/my_knowledge_map/blob/master/adversarial_ml/cyberSecurity/NIDS/NIDS_aml.md)
 
-The details of **Windows PE Attack** can be found [here](https://github.com/wszhs/my_knowledge_map/adversarial_ml/cyberSecurity/malware/PE_aml.md)
+The details of **Windows PE Attack** can be found [here](https://github.com/wszhs/my_knowledge_map/blob/master/adversarial_ml/cyberSecurity/malware/PE_aml.md)
 
 ***
 ## Explainable Machine Learning for Cyber Security

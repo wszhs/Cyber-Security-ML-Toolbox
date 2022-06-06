@@ -1,7 +1,7 @@
 # ETA
 Explainable and Transferable Adversarial Attack for ML-Based Network Intrusion Detectors
 ## what is ETA?
-ETA is a general Explainable Transfer-based black-box adversarial Attack framework aiming to 1) craft transferable adversarial examples across various types of ML models and 2) explain why adversarial examples and adversarial transferability exist in NIDSs.
+ETA is a Explainable Transfer-based black-box adversarial Attack framework aiming to 1) craft transferable adversarial examples across various types of ML models and 2) explain why adversarial examples and adversarial transferability exist in NIDSs.
 
 ![Image file ](images/ETA_framework.jpg)
 On the left of (a), An overview of our Explainable Transfer-based Attack (ETA) framework—Our framework consists of four core steps: (1) Optimizing the substitute model (Opt-Sub),(2) Important-Sensitive Feature Selection (ISFS), (3) Gradient

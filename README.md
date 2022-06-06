@@ -328,7 +328,7 @@ captures to what extent explanations are concise i.e., that few features are use
 ## User Cases
 
 ### ETA: Explainable and Transferable Adversarial Attack for ML-Based Network Intrusion Detectors
-[ETA](ETA.md) is a general Explainable Transfer-based black-box adversarial Attack framework aiming to 1) craft transferable adversarial examples across various types of ML models and 2) explain why adversarial examples and adversarial transferability exist in NIDSs.
+[ETA](ETA.md) is a Explainable Transfer-based black-box adversarial Attack framework aiming to 1) craft transferable adversarial examples across various types of ML models and 2) explain why adversarial examples and adversarial transferability exist in NIDSs.
   
 ### CARE: Ensemble Adversarial Robustness Evaluation Against Adaptive Attackers for Security Applications
 [CARE](CARE.md) is a general Cybersecurity Adversarial Robustness Evaluation (CARE) platform aiming to comprehensively evaluates the defense effectiveness of model ensembles and ensemble defenses against adaptive attackers. 

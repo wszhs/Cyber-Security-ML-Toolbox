@@ -331,7 +331,7 @@ captures to what extent explanations are concise i.e., that few features are use
 [ETA](ETA.md) is a general Explainable Transfer-based black-box adversarial Attack framework aiming to 1) craft transferable adversarial examples across various types of ML models and 2) explain why adversarial examples and adversarial transferability exist in NIDSs.
   
 ### CARE: Ensemble Adversarial Robustness Evaluation Against Adaptive Attackers for Security Applications
-[CARE](CARE.md) is an ensemble adversarial robustness evaluation platform for the cybersecurity domain.
+[CARE](CARE.md) is a general Cybersecurity Adversarial Robustness Evaluation (CARE) platform aiming to comprehensively evaluates the defense effectiveness of model ensembles and ensemble defenses against adaptive attackers. 
 
 ### BayesAttack: Query-Efficient End-to-end Adversarial Attacks against Security Detectors via Bayesian Optimization
 [BayesAttack](BayesAttack.md) is a general adversarial attack framework for security applications aiming to address two critical requirements in practice: 1) achieving query-effective black box attacks, 2) directly modifying the original entities, and meeting the constraints of the problem space.

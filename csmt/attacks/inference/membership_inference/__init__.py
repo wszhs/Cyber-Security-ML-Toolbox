@@ -1,0 +1,8 @@
+"""
+Module providing membership inference attacks.
+"""
+from csmt.attacks.inference.membership_inference.black_box import MembershipInferenceBlackBox
+from csmt.attacks.inference.membership_inference.black_box_rule_based import MembershipInferenceBlackBoxRuleBased
+from csmt.attacks.inference.membership_inference.label_only_gap_attack import LabelOnlyGapAttack
+from csmt.attacks.inference.membership_inference.label_only_boundary_distance import LabelOnlyDecisionBoundary
+from csmt.attacks.inference.membership_inference.shadow_models import ShadowModels

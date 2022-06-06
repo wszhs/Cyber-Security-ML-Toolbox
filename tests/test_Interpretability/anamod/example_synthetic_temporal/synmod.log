@@ -1,0 +1,54 @@
+2022-05-29 13:42:32,343: INFO: synmod.master: Begin generating sequence data with args: Namespace(feature_type_distribution=[0.25, 0.25, 0.5], fraction_relevant_features=0.5, include_interaction_only_features=None, logger=<Logger synmod.master (INFO)>, model_type='regressor', num_features=10, num_instances=100, num_interactions=0, output_dir='example_synthetic_temporal', rng=Generator(PCG64) at 0x7FC5AD063C78, seed=100, sequence_length=20, standardize_features=None, synthesis_type='temporal', window_independent=False, write_outputs=None)
+2022-05-29 13:42:32,344: INFO: synmod.master: Generating feature class NumericFeature with window (3, 18) and aggregation_fn RandomWeightedAverage
+2022-05-29 13:42:32,425: INFO: synmod.master: Generating feature class NumericFeature with window (5, 10) and aggregation_fn Max
+2022-05-29 13:42:32,495: INFO: synmod.master: Generating feature class NumericFeature with window (1, 10) and aggregation_fn Average
+2022-05-29 13:42:32,566: INFO: synmod.master: Generating feature class NumericFeature with window (7, 19) and aggregation_fn Average
+2022-05-29 13:42:32,629: INFO: synmod.master: Generating feature class NumericFeature with window (3, 11) and aggregation_fn RandomWeightedAverage
+2022-05-29 13:42:32,697: INFO: synmod.master: Generating feature class NumericFeature with window (7, 17) and aggregation_fn MonotonicWeightedAverage
+2022-05-29 13:42:32,766: INFO: synmod.master: Generating feature class NumericFeature with window (1, 10) and aggregation_fn Max
+2022-05-29 13:42:32,883: INFO: synmod.master: Generating feature class NumericFeature with window (0, 11) and aggregation_fn Max
+2022-05-29 13:42:32,959: INFO: synmod.master: Generating feature class NumericFeature with window (1, 10) and aggregation_fn MonotonicWeightedAverage
+2022-05-29 13:42:33,040: INFO: synmod.master: Generating feature class NumericFeature with window (7, 17) and aggregation_fn Max
+2022-05-29 13:42:33,922: INFO: synmod.master: Ground truth polynomial:
+y = 0.820678762590906*beta*x_0 - 0.620017053224554*beta*x_2 - 0.430519899964703*beta*x_4 + 0.199824546264546*beta*x_7 + 0.991554208437103*beta*x_9 + 0.37630889518349*x_1 + 0.962957961254533*x_3 + 0.2585463394981*x_5 + 0.162072957560713*x_6 + 0.0704962107233014*x_8
+2022-05-29 13:42:33,934: INFO: synmod.master: Window for irrelevant feature id 0: (3, 18)
+2022-05-29 13:42:33,934: INFO: synmod.master: Window for relevant feature id 1: (5, 10)
+2022-05-29 13:42:33,934: INFO: synmod.master: Window for irrelevant feature id 2: (1, 10)
+2022-05-29 13:42:33,934: INFO: synmod.master: Window for relevant feature id 3: (7, 19)
+2022-05-29 13:42:33,934: INFO: synmod.master: Window for irrelevant feature id 4: (3, 11)
+2022-05-29 13:42:33,934: INFO: synmod.master: Window for relevant feature id 5: (7, 17)
+2022-05-29 13:42:33,934: INFO: synmod.master: Window for relevant feature id 6: (1, 10)
+2022-05-29 13:42:33,934: INFO: synmod.master: Window for irrelevant feature id 7: (0, 11)
+2022-05-29 13:42:33,934: INFO: synmod.master: Window for relevant feature id 8: (1, 10)
+2022-05-29 13:42:33,934: INFO: synmod.master: Window for irrelevant feature id 9: (7, 17)
+2022-05-29 13:42:33,934: INFO: synmod.master: Begin estimating ground truth effects
+2022-05-29 13:42:33,941: INFO: synmod.master: End estimating ground truth effects
+2022-05-29 13:42:35,272: INFO: anamod.core.master: Begin anamod master pipeline with args: <anamod.core.model_analyzer.TemporalModelAnalyzer object at 0x7fc5ad144a20>
+2022-05-29 13:42:35,272: INFO: anamod.core.master: Begin running serial pipeline
+2022-05-29 13:42:35,273: INFO: anamod.core.master: Begin anamod worker pipeline on host bogon
+2022-05-29 13:42:35,280: INFO: anamod.core.master: Baseline mean loss: 0.0
+2022-05-29 13:42:35,280: INFO: anamod.core.master: Begin perturbing features
+2022-05-29 13:42:38,198: INFO: anamod.core.master: End perturbing features
+2022-05-29 13:42:38,198: INFO: anamod.core.master: Identified important features: 1,3,5,6,8; proceeding with temporal analysis
+2022-05-29 13:42:38,471: INFO: anamod.core.master: Feature 1: ordering important: True
+2022-05-29 13:42:38,471: INFO: anamod.core.master: Begin searching for temporal window for feature 1
+2022-05-29 13:42:41,830: INFO: anamod.core.master: Found window for feature 1: (5, 10); significant: True; ordering important: False
+2022-05-29 13:42:42,103: INFO: anamod.core.master: Feature 3: ordering important: True
+2022-05-29 13:42:42,103: INFO: anamod.core.master: Begin searching for temporal window for feature 3
+2022-05-29 13:42:45,707: INFO: anamod.core.master: Found window for feature 3: (7, 19); significant: True; ordering important: False
+2022-05-29 13:42:46,024: INFO: anamod.core.master: Feature 5: ordering important: True
+2022-05-29 13:42:46,024: INFO: anamod.core.master: Begin searching for temporal window for feature 5
+2022-05-29 13:42:49,188: INFO: anamod.core.master: Found window for feature 5: (7, 17); significant: True; ordering important: True
+2022-05-29 13:42:49,493: INFO: anamod.core.master: Feature 6: ordering important: True
+2022-05-29 13:42:49,493: INFO: anamod.core.master: Begin searching for temporal window for feature 6
+2022-05-29 13:42:52,457: INFO: anamod.core.master: Found window for feature 6: (1, 10); significant: True; ordering important: False
+2022-05-29 13:42:52,760: INFO: anamod.core.master: Feature 8: ordering important: True
+2022-05-29 13:42:52,760: INFO: anamod.core.master: Begin searching for temporal window for feature 8
+2022-05-29 13:42:56,190: INFO: anamod.core.master: Found window for feature 8: (2, 10); significant: True; ordering important: True
+2022-05-29 13:42:56,191: INFO: anamod.core.master: Begin writing outputs
+2022-05-29 13:42:56,197: INFO: anamod.core.master: End writing outputs
+2022-05-29 13:42:56,197: INFO: anamod.core.master: End anamod worker pipeline
+2022-05-29 13:42:56,197: INFO: anamod.core.master: Compiling results
+2022-05-29 13:42:56,198: INFO: anamod.core.master: Begin intermediate file cleanup
+2022-05-29 13:42:56,200: INFO: anamod.core.master: End intermediate file cleanup
+2022-05-29 13:42:57,145: INFO: anamod.core.master: End anamod master pipeline

@@ -156,7 +156,7 @@ csmt.classifiers.ensemble
     <li><b>FGA</b>
     </ul>
     <ul>
-    Black-box Attack
+   Graph Injection Attack
     <li><b>TDGIA</b>
     <li><b>SPEIT</b>
     <li><b>GA2C</b>

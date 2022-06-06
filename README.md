@@ -307,7 +307,7 @@ captures to what extent explanations are concise i.e., that few features are use
 [CARE](CARE.md) is an ensemble adversarial robustness evaluation platform for the cybersecurity domain.
 
 ### BayesAttack: Query-Efficient End-to-end Adversarial Attacks against Security Detectors via Bayesian Optimisation
-[BayesAttack](BayesAttack) is a general adversarial attack framework for security applications aiming to address two critical requirements in practice: 1) achieving query-effective black box attacks, 2) directly modifying the original entities, and meeting the constraints of the problem space.
+[BayesAttack](BayesAttack.md) is a general adversarial attack framework for security applications aiming to address two critical requirements in practice: 1) achieving query-effective black box attacks, 2) directly modifying the original entities, and meeting the constraints of the problem space.
 
 ***
 ## Acknowledgements

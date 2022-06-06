@@ -3,7 +3,7 @@ Ensemble Adversarial Robustness Evaluation Against Adaptive Attackers for Securi
 ## what is CARE?
 ![Image file ](images/CARE_framework.jpg)
 
-CARE is a general Cybersecurity Adversarial Robustness Evaluation (CARE) platform aiming to comprehensively evaluates the defense effectiveness of model ensembles and ensemble defenses against adaptive attackers. . The CARE framework consists of three basic components and two ensemble robustness evaluation components. The three basic components are: 1) Attack Library (AL) 2) Model Library (ML) 3) Attack and Defense Utility Evaluation (AUE \& DUE); the two ensemble robustness evaluation components are: 1) Adaptive Ensemble Attack Generation (AE-AG) 2) Automatic Ensemble Defense (AutoED).
+CARE is a general Cybersecurity Adversarial Robustness Evaluation (CARE) platform aiming to comprehensively evaluates the defense effectiveness of model ensembles and ensemble defenses against adaptive attackers. The CARE framework consists of three basic components and two ensemble robustness evaluation components. The three basic components are: 1) Attack Library (AL) 2) Model Library (ML) 3) Attack and Defense Utility Evaluation (AUE \& DUE); the two ensemble robustness evaluation components are: 1) Adaptive Ensemble Attack Generation (AE-AG) 2) Automatic Ensemble Defense (AutoED).
 
 
 ## Background

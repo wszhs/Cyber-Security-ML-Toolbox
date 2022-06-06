@@ -14,7 +14,7 @@ More importantly, we employ restricted feature-space attacks using remapping fun
 
 <details>
   <summary><b>Data Modules</b></summary>
-  [csmt.datasets](https://github.com/wszhs/Cyber-Security-ML-Toolbox/tree/master/csmt/attacks)
+  csmt.datasets
   <ul>
     <li><b>Kitsune </b>
     <li><b>NSLKDD </b>

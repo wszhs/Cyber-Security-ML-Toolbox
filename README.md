@@ -6,8 +6,8 @@
 
 ## Adversarial Machine Learning for Cyber Security
 
-The robustness test package of csmt provides a series tools that enable researchers to defend and evaluate Machine Learning models and applications against adversarial threats. 
-In particular, csmt supports popular machine learning frameworks (TensorFlow, Keras, PyTorch, scikit-learn, XGBoost, LightGBM, CatBoost, etc. ), as well as multiple adversarial attack and defense strategies.
+The robustness test package of csmt provides a series of tools that enable researchers to defend and evaluate Machine Learning models and applications against adversarial threats. 
+In particular, csmt supports popular machine learning frameworks (TensorFlow, Keras, PyTorch, scikit-learn, XGBoost, LightGBM, CatBoost, etc.), as well as multiple adversarial attack and defense strategies.
 More importantly, we employ restricted feature-space attacks using remapping functions and implement end-to-end problem-space attacks in Network Intrusion Detections(NIDSs) and Windows malware detections.
 
 ### Base Modules
@@ -312,14 +312,15 @@ captures to what extent explanations are concise i.e., that few features are use
 ***
 ## Acknowledgements
 csmt is built with the help of several open source packages. All of these are listed in setup.py and some of these include:
-- [Tensorflow]()
-- [scikit-learn]()
-- [AI Explainability 360]()
-- [adversarial-robustness-toolbox]()
-- [Quantus]()
-- [SHAP]()
-- [Evidently]()
-- [deepchecks]()
-- [ALiPy]()
+- [Tensorflow](https://github.com/tensorflow/tensorflow)
+- [Pytorch](https://github.com/pytorch/pytorch)
+- [scikit-learn](https://github.com/scikit-learn/scikit-learn)
+- [AI Explainability 360](https://github.com/Trusted-AI/AIX360)
+- [adversarial-robustness-toolbox](https://github.com/Trusted-AI/adversarial-robustness-toolbox)
+- [Quantus](https://github.com/understandable-machine-intelligence-lab/Quantus)
+- [SHAP](https://github.com/slundberg/shap)
+- [Evidently](https://github.com/evidentlyai/evidently)
+- [deepchecks](https://github.com/deepchecks/deepchecks)
+- [ALiPy](https://github.com/NUAA-AL/ALiPy)
 
 

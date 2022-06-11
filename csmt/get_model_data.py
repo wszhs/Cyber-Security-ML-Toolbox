@@ -29,14 +29,7 @@ from sklearn import metrics
 # cora_graph yelp_graph
 
 def parse_arguments(arguments):
-    parser = configargparse.ArgParser(config_file_parser_class=configargparse.YAMLConfigFileParser)
-    parser.add('--attack_models',required=False,default=['lr'],choices=['lr'])
-    parser.add('--adv_train_models',required=False,default=['lr'],choices=['lr'])
-    parser.add('--algorithms', required=False, default=['dt'],choices=['lstm_keras','ae','ft_transformer','lr', 'svm','dt','rf','xgboost','lightgbm','catboost','deepforest','knn','hmm','mlp_keras','mlp_torch','cnn_torch','kitnet','if','diff-rf','soft_ensemble','hard_ensmeble','stacking_ensemble','bayes_ensemble'])
-    parser.add('--datasets',required=False, default='blob',choices=['cora_graph','blob','anomaly','breast_cancer_zhs','iris_zhs','cicids2017','cicandmal2017','twitter_spam','bodmas','malimg'])
-    parser.add('--evasion_algorithm',required=False,default=['openbox_opt'],choices=['universal','bayes','fgsm','fgsm_l1','pgd','cw','bound','jsma','bim','deepfool','zoo','hsj','zones','zosgd','zoscd','zoadamm','zo_shap_sgd','zo_shap_scd','tree','zosgd_sum'])
-    parser.add('--adv_train_algorithm',required=False,default=['fgsm'],choices=['fgsm','pgd','cw','bound','jsma','bim','deepfool','zoo','hsj','zones','zosgd','zoscd','zoadamm','zo_shap_sgd','zo_shap_scd','tree','zosgd_sum'])
-    options = parser.parse_args(arguments)
+......
     return options
  
 def print_results(datasets_name,models_name,y_test,y_pred_arr,label):

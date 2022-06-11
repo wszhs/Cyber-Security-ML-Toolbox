@@ -31,14 +31,7 @@ from sklearn import metrics
 
 
 def parse_arguments(arguments):
-    parser = configargparse.ArgParser(config_file_parser_class=configargparse.YAMLConfigFileParser)
-    parser.add('--attack_models',required=False,default=['lr'],choices=['lr'])
-    parser.add('--adv_train_models',required=False,default=['lr'],choices=['lr'])
-    parser.add('--algorithms', required=False, default=['gcn'],choices=['mlp','gcn','graphsage','gat','gin'])
-    parser.add('--datasets',required=False, default='grb-cora',choices=['grb-cora','cora','Weibo','Alpha','Elliptic'])
-    parser.add('--evasion_algorithm',required=False,default=['random'],choices=['random','stack','flip'])
-    parser.add('--adv_train_algorithm',required=False,default=['fgsm'],choices=['fgsm'])
-    options = parser.parse_args(arguments)
+......
     return options
  
 def print_results(datasets_name,models_name,y_test,y_pred_arr,label):
